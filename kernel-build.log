@@ -1,0 +1,9 @@
+=== Android Kernel Build with KASAN/KCOV ===
+[*] Kernel exists, skipping clone.
+Downloading Clang toolchain...
+--2025-07-03 11:01:42--  https://android.googlesource.com/platform/prebuilts/clang/host/linux-x86/+archive/refs/heads/master/clang-r416183b.tar.gz
+Resolving android.googlesource.com (android.googlesource.com)... 64.233.170.82, 2404:6800:4003:c05::52
+Connecting to android.googlesource.com (android.googlesource.com)|64.233.170.82|:443... connected.
+HTTP request sent, awaiting response... 400 Bad Request
+2025-07-03 11:01:43 ERROR 400: Bad Request.
+

@@ -1,0 +1,6 @@
+#!/bin/sh
+mount -t proc proc /proc
+mount -t sysfs sysfs /sys
+echo
+echo "[+] Rootfs mounted. Dropping to shell..."
+exec /bin/sh
